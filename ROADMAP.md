@@ -774,8 +774,6 @@ virtual-library/
 
 # Actual Build Order
 
-If you're starting today, follow this order:
-
 ```text
 1. Repository setup
 2. Spring Boot setup
@@ -799,28 +797,4 @@ If you're starting today, follow this order:
 20. Bookmarks / reports / analytics
 ```
 
-Don't start with AI.
 
-Don't start with Redis.
-
-Don't start with Elasticsearch.
-
-Don't build 15 microservices.
-
-Get the basic flow working first:
-
-```text
-upload PDF
-     ↓
-store PDF
-     ↓
-save metadata
-     ↓
-admin approves
-     ↓
-student searches
-     ↓
-student downloads
-```
-
-If that works properly, you already have a useful project.
